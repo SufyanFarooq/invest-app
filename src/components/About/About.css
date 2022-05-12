@@ -1,0 +1,31 @@
+.aboutMain{
+    width: 100%;
+    height: auto;
+    margin-top: -17px;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #09203F, #537895);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #09203F, #537895); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 20px;
+}
+.about_card_section{
+
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.aboutCard{
+    margin-top: 20px;
+    height: 300px;
+    width: 370px;
+    padding: 10px;
+    /* background: #485563;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right,  #537895, #09203F);
+    background: linear-gradient(to right,  #537895, #09203F);  */
+     
+     background: #16222A;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+    color: #fff;
+}

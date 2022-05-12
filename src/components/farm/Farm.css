@@ -1,0 +1,128 @@
+.farmMain{
+    width: 100%;
+    height: auto;
+    margin-top: -17px;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #09203F, #537895);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #09203F, #537895); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 20px;
+}
+.farmParagraph{
+    padding-top: 120px;
+}
+.firstfarmParagraph{
+    font-size: 4em;
+}
+.secondfarmParagraph{
+    font-size: 6em;
+
+}
+.farmBtnGroup{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* align-items: center; */
+}
+.farmBtn div {
+    width: 150px;
+border-radius: 20px;
+}
+.farmBtn div:hover{
+transform: translateY(5px);
+
+}
+.planCard{
+    border: 5px solid aquamarine;
+    height: 530px;
+    width: 320px;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #427a96, #425c6e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.planCardMain{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+}
+.dayCard{
+    background-color: aquamarine;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+   
+    border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+/* border-radius: 0px 50px 50px 50px; */
+    position: relative;
+    top: -20px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.planCard:hover{
+    transform: translateY(5px);
+}
+.planCard:hover .dayCard{
+/* background-color: #fff; */
+transform: translateY(5px);
+border-radius: 20px;
+width: 80%;
+}
+.planInput{
+    width: 100%;
+}
+.planinput{
+    width: 80%;
+    background: transparent;
+    /* border: none; */
+    outline: none;
+    border-bottom: 3px solid aquamarine;
+    color: #fff;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: red;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: red;
+  }
+  
+  .palnBtn{
+      width: 70%;
+      padding: 3px;
+      border-radius: 20px;
+      background-color:aquamarine; 
+      border-top-right-radius: 50px;
+      border-bottom-left-radius: 50px;
+      border: none;
+      font-size: 18px;
+    font-weight: bold;
+  }
+  .palnBtn:hover{
+      color: crimson;
+  }
+  .planCard:hover .palnBtn{
+    /* background-color: #fff; */
+    transform: translateY(5px);
+    border-radius: 20px;
+    width: 80%;
+    }
