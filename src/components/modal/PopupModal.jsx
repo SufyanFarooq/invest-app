@@ -45,14 +45,14 @@ size="xl"
         We decided to launch MaticFomo on the Matic network to expand our investors community.
         </p>
         <p>
-          <ol>
+          <ul className='list-unstyled'>
             <li>
-            The MaticFomo project will be launched on 02nd June 2022 14:00:00 UTC (https://maticmania.net/).
+            1. The MaticFomo project will be launched on 02nd June 2022 14:00:00 UTC (https://maticmania.net/).
             </li>
             <li>
-            MaticFomo's Basic Mechanism: Minimum Deposit:5 Matic , Total Profit : 200% - 500%
+            2. MaticFomo's Basic Mechanism: Minimum Deposit:5 Matic , Total Profit : 200% - 500%
             </li>
-          </ol>
+          </ul>
         </p>
         <p className='fw-bold'>
         Fomo community - Become rich with us, Keep growing!

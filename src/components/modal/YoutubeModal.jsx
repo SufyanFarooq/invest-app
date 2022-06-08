@@ -27,21 +27,21 @@ function YoutubeModal({isShow, setIsShow}) {
           <h4 className='text-center text-dark change-font fw-bolder'>Rules Introduction</h4>
 
           <p>
-            <ol>
+            <ul className='list-unstyled'>
               <li>
-                We have prepared 18,500 matic for the competition as a reward.
+                1. We have prepared 18,500 matic for the competition as a reward.
               </li>
               <li>
-                We will select the 5 most popular and most quality Youtube videos based on "Likes, Comments, Views and Total Referrals".
+                2. We will select the 5 most popular and most quality Youtube videos based on "Likes, Comments, Views and Total Referrals".
               </li>
               <li>
-                The description of the video must have a link to the official maticfomo website.
+                3. The description of the video must have a link to the official maticfomo website.
               </li>
               <li>
-              Youtube need to invest at least 100 MATIC.
+              4. Youtube need to invest at least 100 MATIC.
               </li>
-              <li>If a video has already been posted, please send the video link to @Cryptofomomania</li>
-            </ol>
+              <li>5. If a video has already been posted, please send the video link to @Cryptofomomania</li>
+            </ul>
           </p>
           <p className='text-center'>
            <h3 className='change-font fw-bolder'> Bonus Distribution</h3>
