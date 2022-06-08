@@ -2,20 +2,51 @@
     width: 100%;
     height: auto;
     margin-top: -17px;
-    background: #485563;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #09203F, #537895);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #09203F, #537895); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #076768;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #002a22, #076768);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #002a22, #076768); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     padding-bottom: 20px;
 }
+.farm-text{
+    display: flex;
+    justify-content: space-around;
+    /* width: 100%; */
+    padding-top: 150px;
+}
 .farmParagraph{
-    padding-top: 120px;
+    border: 2px solid #13544b;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #103736, #16222A); 
+    background: linear-gradient(to right, #103736, #16222A);
+    /* padding-top: 150px; */
+}
+.farm-2-graph{
+    font-family: Monospace;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #103736, #16222A); 
+    background: linear-gradient(to right, #103736, #16222A); 
+    border: 2px solid #13544b;
+
 }
 .firstfarmParagraph{
-    font-size: 4em;
+    background: #0d8e8b;
+    font-family: Monospace;
+    font-size: 2.5em;
+}
+.farmParagraph p {
+    font-family: Monospace;
+
+}
+.farmParagraph:hover{
+    transform: translateY(5px);
 }
 .secondfarmParagraph{
+    font-family: Monospace;
     font-size: 6em;
 
+}
+.farm-2-graph:hover{
+    transform: translateY(5px);
 }
 .farmBtnGroup{
     display: flex;
@@ -32,12 +63,13 @@ transform: translateY(5px);
 
 }
 .planCard{
+    font-family: Monospace;
     border: 5px solid aquamarine;
-    height: 530px;
+    height: 590px;
     width: 320px;
     background: #16222A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #427a96, #425c6e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #0e2825, #16222A); 
+    background: linear-gradient(to right, #0e2825, #16222A);
     
 }
 .planCardMain{
@@ -126,3 +158,135 @@ input::-webkit-inner-spin-button {
     border-radius: 20px;
     width: 80%;
     }
+    .static-card-main{
+        margin-top: 20px;
+        /* align-items: center; */
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .static-card{
+        margin: 5px;
+        border: 5px solid aquamarine;
+    /* height: 530px;
+    width: 320px; */
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0e2825, #16222A); 
+    background: linear-gradient(to right, #0e2825, #16222A);
+    }
+    .static-card ul {
+        list-style: none;
+        color: #fff;
+    }
+    .withdraw-card{
+        margin: 5px;
+        border: 5px solid aquamarine;
+    /* height: 530px;
+    width: 320px; */
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0e2825, #16222A); 
+    background: linear-gradient(to right, #0e2825, #16222A);
+
+    }
+    .withdraw-card ul {
+        list-style: none;
+        color: #fff;
+    }
+    .ref-card{
+        margin: 5px;
+        border: 5px solid aquamarine;
+    /* height: 530px;
+    width: 320px; */
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0e2825, #16222A); 
+    background: linear-gradient(to right, #0e2825, #16222A);
+    }
+    .ref-card ul {
+        list-style: none;
+        color: #fff;
+    }
+.copyinput{
+    width: 40%;
+    background: transparent;
+    /* border: none; */
+    outline: none;
+    border-bottom: 3px solid aquamarine;
+    color: #fff;
+}
+    .copy-btn{
+        width: 20%;
+        padding: 3px;
+        border-radius: 20px;
+        background-color:aquamarine; 
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border: none;
+        font-size: 18px;
+      font-weight: bold;
+    }
+
+    @media (min-width: 280px) and (max-width: 480px) {
+        .farm-text{
+      flex-direction: column;
+align-items: center;
+      flex-wrap: wrap;
+            padding-top: 150px;
+        }
+        .planCardMain{
+
+            margin-top: 50px;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+        .planCard{
+            height: 550px;
+            width: 98%;
+            margin: 20px;
+            padding: 20px;
+        }
+        .planCard p{
+            font-size: 16px !important;
+        }
+        .planCard li{
+            font-weight: normal !important;
+            font-size: 10px !important;
+        }
+        .static-card-main{
+            flex-direction: column;
+            align-items: center;
+        }
+        .static-card{
+            /* margin: 0; */
+            width: 250px;
+        }
+
+        .withdraw-card {
+            /* margin: 0; */
+            width: 250px;
+        }
+        .ref-card{
+            width: 250px;
+        }
+        .copyinput{
+            width: 80%;
+        
+        }
+            .copy-btn{
+                margin-top: 10px;
+                width: 80%;
+            }
+            .farmParagraph{
+                
+                width: 90%;
+                padding-top: 10px;
+            }
+            .farm-2-graph{
+                margin-top: 10px;
+                width: 90%;
+            }
+            .firstfarmParagraph{
+                font-size: 30px;
+            }
+    }
+    

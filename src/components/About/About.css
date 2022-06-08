@@ -1,10 +1,12 @@
 .aboutMain{
+    font-family: Monospace;
     width: 100%;
     height: auto;
-    margin-top: -17px;
-    background: #485563;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #09203F, #537895);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #09203F, #537895); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 40px;
+    background: #076768;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #002a22, #076768);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #002a22, #076768); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     padding-bottom: 20px;
 }
 .about_card_section{
@@ -16,16 +18,27 @@
 }
 .aboutCard{
     margin-top: 20px;
-    height: 300px;
+    height: 320px;
     width: 370px;
     padding: 10px;
     /* background: #485563;  /* fallback for old browsers */
     /* background: -webkit-linear-gradient(to right,  #537895, #09203F);
     background: linear-gradient(to right,  #537895, #09203F);  */
      
-     background: #16222A;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0e2825, #16222A); 
+    background: linear-gradient(to right, #0e2825, #16222A);
      
     color: #fff;
+}
+.aboutCard:hover{
+    transform: translateY(5px);
+}
+.about-log{
+    padding-top: 150px !important;
+}
+@media (min-width: 280px) and (max-width: 480px) {
+.about-log{
+    padding-top: 150px !important;
+}
 }

@@ -1,0 +1,23 @@
+.modalHeader{
+   
+    /* border: #485563;
+    background: #16222A;
+    background: -webkit-linear-gradient(to right, #0e2825, #16222A); 
+    background: linear-gradient(to right, #0e2825, #16222A); */
+    border-bottom: 3px solid red;
+    border-right: 3px solid red;
+    border-left: 3px solid red;
+
+}
+.youtube-table{
+    display: flex;
+    justify-content: center;
+}
+.modal-popup{
+    border-top: 3px solid red;
+    border-right: 3px solid red;
+    border-left: 3px solid red;
+}
+.change-font{
+    font-family: Monospace;
+}

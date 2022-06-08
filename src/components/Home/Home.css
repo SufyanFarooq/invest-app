@@ -1,70 +1,63 @@
 
 .homeMain{
-    height: 90vh;
+    height: auto;
     width: 100%;
-    background: #485563;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #09203F, #537895);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #09203F, #537895); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-.mainNav{
-    display: flex;
-    justify-content: center;
-    margin-top: -80px
-}
-.nav{
-    width: 30%;
-    height: 50px;
-    border-radius: 10px;
-    background: #16222A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-     display: flex;
-     justify-content: space-evenly;
-     align-items: center;
-}
-.nav div{
-cursor: pointer;
-
+    padding-bottom: 100px;
+    background: #076768;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00261e, #076768);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00261e, #076768); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: Monospace;
 }
 
-.navItem:hover{
-color: rgb(241, 210, 210) !important;
-/* border-top: 3px solid skyblue;
-border-bottom: 3px solid skyblue; */
-box-shadow: 0 2px 0 #537895;
-transition: all .2s;
-transform: translateY(2px);
-}
 .home_pargraph{
     padding-top:150px ;
     /* margin-top: 120px; */
 }
 .button{
     background: #16222A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: -webkit-linear-gradient(to right, #0e2825, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0e2825, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform: skew(-25deg);
     /* background-color: #09203F; */
-    width: 200px;
+    width: 220px;
     border-radius: 8px;
     border: none;
     margin-left: 20px;
-    padding: 20px 40px;
-    box-shadow: 0 10px 0 #537895;
-    transition: all .2s;
+    padding: 15px 30px;
+    box-shadow: 0 10px 0 #0d8e8b;
+    transition: all 0.3s ease;
 }
 .button:hover{
     color: #537895 !important;
 }
+.button:after {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-color: #16222A;
+  background-image: linear-gradient(315deg, #0e2825 0%, #16222A 74%);
+    transition: all 0.3s ease;
+  }
+@keyframes btn-animation {
+    from{box-shadow: 0 10px 0 #0d8e8b;
+        transform: translateY(0px);}
+
+    to{box-shadow: 0 5px 0 #0d8e8b;
+        transform: translateY(5px);}
+}
 .button:active{
-    box-shadow: 0 5px 0 #537895;
+    transform: skew(-25deg);
+    box-shadow: 0 5px 0 #0d8e8b;
   transform: translateY(5px);
 }
 .homeCard{
     background: #16222A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #0e2825, #16222A); 
+    background: linear-gradient(to right, #0e2825, #16222A);
     
     /* background-color: #09203F; */
     height: 100px;
@@ -74,11 +67,11 @@ transform: translateY(2px);
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 5px 5px 0 #537895;
+    box-shadow: 5px 5px 0 #0d8e8b;
     /* box-shadow: 0 10px 10px -5px; */
 }
 .homeCard:hover{
-    box-shadow: 0 5px 0 #537895;
+    box-shadow: 0 5px 0 #0d8e8b;
   transform: translateY(5px);
 }
 .home_Icons{
@@ -88,6 +81,27 @@ transform: translateY(2px);
 
 .home_icon:hover{
   transform: translateY(3px);
-  color: #537895 !important;
+  color: #0d8e8b !important;
 /* font-size: 30px !important; */
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+    .button-main{
+        align-items: center;
+        flex-direction: column;
+    /* padding-bottom: 10px; */
+
+    }
+    .button{
+        margin: 20px;
+    }
+    .home-card-main{
+        align-items: center;
+        flex-direction: column;
+    }
+    .homeCard{
+        margin: 20px;
+        height: 100px;
+        width: 300px;
+    }
 }

@@ -7,25 +7,25 @@ function About() {
   return (
     <div className='aboutMain'>
         <div className='container'>
-            <div className='text-center pt-5'>
+            {/* <div className='text-center about-log pt-5'>
                 <img src="/logo.png" alt="" width={100} />
-            </div>
-            <div className=' text-center text-light'>
+            </div> */}
+            {/* <div className=' text-center text-light'>
         <p className='mt-2 fs-3 fw-bold'>Earn Lucrative Matic Dividends From MaticApe Swap</p>
         <p className='mt-2 fs-5'>The MaticApe Swap pays $APE Token holders 25% dividends through buy and sell transactions. Holders receive their Matic dividends 
             proportionally and instantly, relative to the total $APE circulating supply.</p>
-            </div>
+            </div> */}
             <div>
             <div className='text-center pt-5'>
-                <img src="/logo.png" alt="" width={100} />
+                <img className='mt-5' src="/new--logo.png" alt="" width={100} />
             </div>
             <div className='d-flex justify-content-center' style={{width:"100%"}}>
             <div className= 'about_card_section'>
                 <div className='aboutCard'>
                     <div className='fs-1 text-center' ><AiOutlineSecurityScan/></div>
-                <p className='text-center  fs-5'>Audited Contract by Haze Security</p>
+                <p className='text-center  fs-5'>Audited Contract by Arbitech Solutions</p>
                 <p className='text-center'>
-                The contract is professionally audited by Haze Security and found NO backdoors and NO rugpull functions, audit report can be viewed here.
+                The contract is professionally audited by Arbitech Solutions and found NO backdoors and NO rugpull functions, audit report can be viewed here.
                 </p>
 
                 </div>

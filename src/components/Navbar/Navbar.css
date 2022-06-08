@@ -1,8 +1,103 @@
-.NavContainer{
+.NavContainer {
     width: 100%;
     height: 10vh;
-    background: #485563;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #09203F, #537895);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #09203F, #537895); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #076768;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00261e, #076768);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00261e, #076768);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar {
+    background: transparent;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00261e, #076768);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00261e, #076768);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.mainNav {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px
+}
+
+.nav {
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    background: #16222A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0e2825, #16222A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0e2825, #16222A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.maticPrice {
     
+    border: 2px solid #13544b;
+    /* position: relative; */
+    transform: skew(-28deg);
+    padding: 5px 15px;
+    background: #16222A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #103736, #16222A);
+    background: linear-gradient(to right, #103736, #16222A);
+}
+
+.connect_btn {
+    border: 2px solid #13544b;
+    padding: 10px;
+    background: #16222A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #103736, #16222A);
+    background: linear-gradient(to right, #103736, #16222A);
+}
+.nav-btn{
+    display: flex;
+}
+.nav div {
+    cursor: pointer;
+
+}
+
+.navItem:hover {
+    color: rgb(241, 210, 210) !important;
+    /* border-top: 3px solid skyblue;
+border-bottom: 3px solid skyblue; */
+    box-shadow: 0 2px 0 #537895;
+    transition: all .2s;
+    transform: translateY(2px);
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+    .mainNav {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px
+    }
+
+    .nav {
+        width: 80%;
+        height: 50px;
+    }
+
+    .navItem {
+        font-size: 16px !important;
+    }
+
+    .logo-nav {
+        align-items: center;
+    }
+    .nav-btn{
+        flex-direction: column;
+    }
 }
