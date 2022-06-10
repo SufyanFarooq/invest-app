@@ -60,12 +60,22 @@ size="xl"
         <p className='fw-bold'>
         SOCIAL HANDLES
         </p>
-        <p>
+        <div className='linkBorderMain'>
+        <div className='linkBorder'>
+      <div>
+
+        <p >
         Matic Mania Official Group:<a target="_blank" href=' https://t.me/+t_Mo6S19V0ExOWM1'> https://t.me/+t_Mo6S19V0ExOWM1</a>
         </p>
+      </div>
+      <div>
         <p>
+        
         FOMO Ecosystem Official Channel:<a target="_blank" href='  https://t.me/+J06nN4l01jBjZDE1'>  https://t.me/+J06nN4l01jBjZDE1</a>
         </p>
+      </div>
+        </div>
+        </div>
         </div>
       </Modal.Body>
     </Modal>

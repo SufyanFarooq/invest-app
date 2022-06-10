@@ -17,10 +17,10 @@ function About() {
             </div> */}
             <div>
             <div className='text-center pt-5'>
-                <img className='mt-5' src="/new--logo.png" alt="" width={100} />
+            
             </div>
-            <div className='d-flex justify-content-center' style={{width:"100%"}}>
-            <div className= 'about_card_section'>
+            <div className='d-flex justify-content-center mt-5' style={{width:"100%"}}>
+            <div className= 'about_card_section mt-5'>
                 <div className='aboutCard'>
                     <div className='fs-1 text-center' ><AiOutlineSecurityScan/></div>
                 <p className='text-center  fs-5'>Audited Contract by Arbitech Solutions</p>

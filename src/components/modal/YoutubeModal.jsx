@@ -43,6 +43,22 @@ function YoutubeModal({isShow, setIsShow}) {
               <li>5. If a video has already been posted, please send the video link to @Cryptofomomania</li>
             </ul>
           </p>
+          <div className='linkBorderMain'>
+        <div className='linkBorder-youtube text-center'>
+      <div>
+
+        <p >
+        Matic Mania Official Group:<a target="_blank" href='https://t.me/maticmaniacoin'>https://t.me/maticmaniacoin</a>
+        </p>
+      </div>
+      <div>
+        <p>
+        
+        FOMO Ecosystem Official Channel:<a target="_blank" href='https://t.me/fomoecosystemofficial'>https://t.me/fomoecosystemofficial</a>
+        </p>
+      </div>
+        </div>
+        </div>
           <p className='text-center'>
            <h3 className='change-font fw-bolder'> Bonus Distribution</h3>
             <div className="youtube-table">

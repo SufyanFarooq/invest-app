@@ -231,7 +231,7 @@ function Home() {
            isShow && <YoutubeModal isShow={isShow} setIsShow={setIsShow} />
        }
        <div className='text-center home_pargraph'>
-           <p className='text-light fs-2'>Automatic Matiq Dividends Earning Swap</p>
+           <p className='text-light fs-2'>Automatic Matic Dividends Earning Swap</p>
        </div>
        <div className='d-flex justify-content-center button-main mt-5 '>
            <button className='button text-light fs-5'>Contract</button>
@@ -377,7 +377,7 @@ function Home() {
                 </div>
                 <div className='static-card-main row'>
                     <div className='static-card col-lg-3'>
-                        <p className='text-center fs-4 fw-bold text-light'>Statistics</p>
+                        <p className='text-center fs-4 fw-bold text-dark mt-3  rounded-pill heading-bg'>Statistics</p>
                         <ul>
                             <li>
                                 <span className='fw-bold fs-4'>
@@ -418,7 +418,7 @@ function Home() {
                         </ul>
                     </div>
                     <div className='withdraw-card col-lg-3'>
-                        <p className='text-center fs-4 fw-bold text-light'>Withdraw</p>
+                        <p className='text-center fs-4 fw-bold text-dark mt-3  rounded-pill heading-bg'>Withdraw</p>
                         <ul>
                             <li>
                                 <span className='fw-bold fs-4'>
@@ -465,7 +465,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='ref-card col-lg-5'>
-                        <p className='text-center fs-4 fw-bold text-light'>Referral Statistics</p>
+                        <p className='text-center fs-4 fw-bold text-dark mt-3  rounded-pill heading-bg'>Referral Statistics</p>
                         <ul>
                             <li>
                                 <span className='fw-bold fs-4'>
@@ -504,7 +504,7 @@ function Home() {
                                 </span> */}
                                 &nbsp;
                                 &nbsp;
-                                <button className='copy-btn'
+                                <button className=' mt-2 ms-xl-5 copy-btn'
                                 onClick={copyRef}
                                 >Copy</button>
                                 {/* <span className='fw-bold fs-4'>0</span> */}

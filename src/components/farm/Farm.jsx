@@ -60,7 +60,7 @@ function Farm() {
            </div>
        </div>
                     <div className='text-center farmParagraph col-5 mt-5'>
-        <p className='text-light firstfarmParagraph  mt-3 rounded-pill'>Grab your Plan</p>
+        <p className='text-dark firstfarmParagraph  mt-3 rounded-pill'>Grab your Plan</p>
                         <p className='text-light fs-5'>
                             The MATICFomo smart-contract provides the opportunity to invest any amount of MATIC (from 5 MATIC) in the contract.
                         </p>
@@ -73,7 +73,7 @@ function Farm() {
 
                     </div>
                     <div className='farm-2-graph text-center col-5 mt-5'>
-                        <p className='text-light  firstfarmParagraph mt-3 rounded-pill'>
+                        <p className='text-dark  firstfarmParagraph mt-3 rounded-pill'>
                             Important notes
                         </p>
                         <ol className='text-light fs-5'>

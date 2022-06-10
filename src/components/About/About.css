@@ -17,6 +17,7 @@ background: linear-gradient(to right, #002a22, #076768); /* W3C, IE 10+/ Edge, F
     flex-wrap: wrap;
 }
 .aboutCard{
+
     margin-top: 20px;
     height: 320px;
     width: 370px;
@@ -24,7 +25,9 @@ background: linear-gradient(to right, #002a22, #076768); /* W3C, IE 10+/ Edge, F
     /* background: #485563;  /* fallback for old browsers */
     /* background: -webkit-linear-gradient(to right,  #537895, #09203F);
     background: linear-gradient(to right,  #537895, #09203F);  */
-     
+    box-shadow: 0 10px 0 #0d8e8b;
+    border-radius: 8px;
+    transition: all 0.3s ease;
     background: #16222A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0e2825, #16222A); 
     background: linear-gradient(to right, #0e2825, #16222A);
@@ -32,12 +35,19 @@ background: linear-gradient(to right, #002a22, #076768); /* W3C, IE 10+/ Edge, F
     color: #fff;
 }
 .aboutCard:hover{
+    box-shadow: 0 5px 0 #0d8e8b;
     transform: translateY(5px);
 }
 .about-log{
     padding-top: 150px !important;
 }
 @media (min-width: 280px) and (max-width: 480px) {
+    .aboutMain{
+       padding-bottom: 150px;
+    }
+    .aboutCard{
+        height: auto;
+    }
 .about-log{
     padding-top: 150px !important;
 }

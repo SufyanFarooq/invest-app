@@ -54,6 +54,9 @@ font-family: Monospace;
     box-shadow: 0 5px 0 #0d8e8b;
   transform: translateY(5px);
 }
+.heading-bg{
+    background:aquamarine ;
+}
 .homeCard{
     background: #16222A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0e2825, #16222A); 

@@ -1,4 +1,5 @@
 .farmMain{
+    font-family: Monospace;
     width: 100%;
     height: auto;
     margin-top: -17px;
@@ -29,7 +30,7 @@
 
 }
 .firstfarmParagraph{
-    background: #0d8e8b;
+    background: aquamarine;
     font-family: Monospace;
     font-size: 2.5em;
 }
@@ -159,7 +160,7 @@ input::-webkit-inner-spin-button {
     width: 80%;
     }
     .static-card-main{
-        margin-top: 20px;
+        margin-top: 60px;
         /* align-items: center; */
         display: flex;
         justify-content: space-around;
@@ -206,7 +207,7 @@ input::-webkit-inner-spin-button {
         color: #fff;
     }
 .copyinput{
-    width: 40%;
+    width: 100%;
     background: transparent;
     /* border: none; */
     outline: none;
@@ -214,7 +215,7 @@ input::-webkit-inner-spin-button {
     color: #fff;
 }
     .copy-btn{
-        width: 20%;
+        width: 50%;
         padding: 3px;
         border-radius: 20px;
         background-color:aquamarine; 

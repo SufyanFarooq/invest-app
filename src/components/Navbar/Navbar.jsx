@@ -27,9 +27,9 @@ function NavigationBar() {
   },[])
   return (
       <div className='NavContainer'>
-        <Navbar  variant="light" bg="light" fixed="top">
+        <Navbar  variant="light" bg="light" >
   <Container>
-    <Navbar.Brand><Link to="/"><img src="/new--logo.png" alt="" width="90px" /></Link></Navbar.Brand>
+    <Navbar.Brand><Link to="/"><img src="/logo.png" alt="" width="100px" /></Link></Navbar.Brand>
     <div className='ms-auto nav-btn'>
       <div className='text-light maticPrice'>MATIC Price &nbsp;<span className=''>{maticPrice}</span></div>
       &nbsp;
